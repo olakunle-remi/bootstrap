@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap Grid Demo</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="CustomStyle.css" rel="stylesheet" />
+    <!---- Custom styles for this template --->
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+
+<p>To highlight text use <code>&lt;mark&gt;</code> tag </p>
+<p>To underline text use <code>&lt;u&gt;</code> tag </p>
+<p>for bold text us <code>&lt;strong&gt;</code> tag </p>
+
+<hr />
+<p>To highlight text use <code><mark></mark></code> tag </p>
+
+    <hr />
+<pre>&lt;strong&gt;Bold text&lt;/strong&gt;
+&lt;u&gt;underline Text&lt;/u&gt;
+ &lt;mark&gt;Highlighted text&lt;/mark&gt; 
+</pre>
+<pre class="pre-scrollable">
+
+public class Program
+{
+    public static void main()
+    {
+        Customer customer1 = new Customer()
+        ID = 101,
+        Name = "park",
+        Salary = 5000
+    };
+    Customer customer2 = new Customer(){
+        ID = 102,
+        Name = "pan",
+        Salary = 7000
+    };
+    Customer customer 3 = new Customer(){
+        ID = 102,
+        Name = "pan",
+        Salary = 5500
+
+    };
+Customer[] arrayCustomers = new Cutomer[2];
+arrayCustomer[0] = customer1;
+arrayCustomer[1] = customer2;
+
+
+List listCustomers = new List(2);
+listCustomers.Add(customer1);
+listCustomers.Add(customer2);
+listCustomers.Add(customer3);
+customer cust = listCustomers[0];
+
+console.WriteLine("ID = {0}, Name = {1}, Salary = {2}",
+        cust.ID, cust.Name, cust.Salary);
+console.WriteLine("---------------------------------------");
+
+
+
+for(int i = 0; i < listCustomers.Count; i++){
+Customer customer = listCustomers[i];
+Console.WriteLine("ID = {0}, Name = {1}, Salary={2},"
+
+)
+
+console.WriteLine("ID = {0}, Name = {1}, Salary = {2}",
+        customer.ID, customer.Name, customer.Salary);
+}
+console.WriteLine("---------------------------------------");
+
+
+foreach (customer c in listCustomers){
+    Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}"
+            c.ID, c.Name, c.Salary);
+}
+console.WriteLine("---------------------------------------");
+
+
+listCustomers.Insert(1, customer3);
+console.WriteLine("ID = {0}, Name = {1}, Salary = {2}",
+listCustomers[1].ID, listCustomers[1].Name
+listCustomers[1].Salary);
+
+
+
+
+console.WriteLine("---------------------------------------");
+console.WriteLine("Index of Custormer3 object in the List = ""
+    + listCustomers.IndexOf(customer3));
+console.WriteLine("---------------------------------------");
+}
+}</pre>
+
+var <var>fullName</var> = <var>firstName</var> + <var>lastName</var>
+
+<h4>Output</h4>
+<samp>Hello World!</samp>
+
+<h4>Visual Studio</h4>
+<p>
+    keyboard shortcut for commenting code
+    <kbd>CTRl</kbd> <kbd>k</kbd> and <kbd>CTRL</kbd> <kbd>C</kbd>
+</p>
+<p>
+    keyboard shortcut for uncommenting code
+    <kbd>CTRL</kbd> <kbd>K</kbd> and <kbd>CTRL</kbd> <kbd>U</kbd>
+</p>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

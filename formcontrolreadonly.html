@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdcuction to bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="CustomStyle.css" rel="stylesheet" />
+    <!---- Custom styles for this template --->
+</head>
+<body>
+    <!---- <h1 class="text-primary">Hello word</h1>
+    <h1 class="text-danger">Hello word</h1>
+    <h1 class="tex-success">Hello word</h1>-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <br />
+                
+               <form>
+                    <div class="form-group">
+                        <input disabled type="text" class="form-control" placeholder="Your full name">
+                   </form>
+           <hr>
+           <fieldset>
+               <div class="form-group">
+                   <label for="txtName">Name</label>
+                   <input type="text" id="txtName" class="form-control" placeholder="Your full name">
+            </div>
+                   
+                   <div class="form-group">
+                       <label for ="selectGender">Gender</label>
+                       <select id="selectGender" class="form-control">
+                   <option>Male</option>
+                   <option>Female</option>
+               </select>
+            </div>
+            <div class="checkbox">
+                <lable>
+                    <input type="checkbox"> I agree
+                </lable>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+           </fieldset>
+           <hr />
+           <!---disable type----->
+           <fieldset disabled>
+            <div class="form-group">
+                <label for="txtName">Name</label>
+                <input type="text" id="txtName" class="form-control" placeholder="Your full name">
+         </div>
+                
+                <div class="form-group">
+                    <label for ="selectGender">Gender</label>
+                    <select id="selectGender" class="form-control">
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+         </div>
+         <div class="checkbox">
+             <lable>
+                 <input type="checkbox"> I agree
+             </lable>
+             <button type="submit" class="btn btn-default">Submit</button>
+         </div>
+        </fieldset>
+        <!---readonly type-->
+        <hr />
+        <input readonly class="form-control" type="text" placeholder="Your name">
+        <br>
+        <input disabled class="form-control" type="text" placeholder="Your name">
+        <hr />
+<form action="form-horizontal">
+    <div class="form-group">
+        <label class="col-xs-2 control-label">ID</label>
+        <div class="col-xs-10">
+            101
+        </div>
+ </div>
+ <div class="form-group">
+    <label for="txtfirstName" class="col-xs-2 control-label">First Name</label>
+    <div class="col-xs-10">
+        <input type="text" class="form-control" id="txtFirstName"
+        placeholder="Your first name">
+    </div>
+</div>
+<div class="form-group">
+    <label for="txtlastName" class="col-xs-2 control-label">Last Name</label>
+    <div class="col-xs-10">
+        <input type="text" class="form-control" id="txtlasttName"
+        placeholder="Your last name">
+    </div>
+</div>
+
+
+</form>
+                
+   </div>
+   </div>
+</div> 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdcuction to bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <!--<link href="CustomStyle.css" rel="stylesheet" />---->
+
+    
+        <!---- Custom styles for this template --->
+</head>
+<body>
+    <br />
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+                <br/><br />
+                
+                <button id="btnSubmit" class="btn btn-primary">Submit</button>
+                <br/><br />
+                <div  id="myAlert" class="alert alert-danger collapse">
+                    <a href="#" class="close" data-dimiss="alert">&times;</a>
+                    <strong>Error!</strong>There is a problem submitting your form
+                </div>
+
+
+        </div>
+    </div>
+ </div>
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <!-- Include all compiled plugins (below), or include individual files as needed -->
+ <script src="js/bootstrap.min.js"></script>
+ <script type="text/javaScript">
+    $(document).ready(function () {
+        $(document).ready(function () {
+            $('#btnSubmit').click(function () {
+                $('#myAlert').show('fade');
+            });
+        })
+    });    
+</script>
+</body>
+</html>
